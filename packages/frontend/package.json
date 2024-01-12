@@ -1,0 +1,30 @@
+{
+  "name": "@sst-template/frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "sst bind vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.17.9",
+    "@trpc/client": "11.0.0-next-beta.193",
+    "@trpc/react-query": "11.0.0-next-beta.193",
+    "aws-amplify": "^6.0.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "6.18.1",
+    "@typescript-eslint/parser": "6.18.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "8.56.0",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.5",
+    "typescript": "5.2.2",
+    "vite": "^5.0.11"
+  }
+}
